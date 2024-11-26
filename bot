@@ -32,3 +32,6 @@ async def send_message_gpt(prompt, id, anounce, type):
     if type == "simple_news_seo":   
       temp_core = 
     .......
+
+
+# Один и тот же промт через бота и напрямую дает Абсолютно разный результат (у бота очень плохие показатели по AI)
